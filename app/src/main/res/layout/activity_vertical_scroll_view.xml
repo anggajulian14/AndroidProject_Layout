@@ -1,0 +1,94 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scroll View"
+            android:layout_gravity="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Halaman ini berisikan banyak tombol"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tombol 1"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tombol 2"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tombol 3"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tombol 4"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tombol 5"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tombol 6"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tombol 7"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tombol 8"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tombol 9"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

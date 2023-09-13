@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_span="2"
+            android:text="login"
+            android:textColor="@color/black"
+            android:textSize="25dp">
+        </TextView>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="username"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp">
+        </TextView>
+        <EditText
+            android:id="@+id/username"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1">
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="password"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp">
+        </TextView>
+        <EditText
+            android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1">
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:clickable="true"
+            android:text="SUBMIT">
+        </Button>
+    </TableRow>
+</TableLayout>
